@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+	<html>
+		<body>
+			<h2>JavaScript if .. else</h2>
+			<p>A time-based greeting:</p>
+			
+			<input id="b"><br>
+			<!-- -->
+			<button Type="button"  onclick="limpar()" >OFF</button>
+			<button Type="button"  onclick="raiz()" >√</button>
+			<button Type="button"  onclick="porcentagem()">%</button>
+			<button Type="button"  onclick="divisão()">/</button><br>
+			<!-- -->
+			<button Type="button"  onclick="um()" >1</button>
+			<button Type="button"  onclick="dois()" >2</button>
+			<button Type="button"  onclick="tres()" >3</button>
+			<button Type="button"  onclick="vezes()" >X</button><br>
+			<button Type="button"  onclick="quadro()" >4</button>
+			<button Type="button"  onclick="cinco()" >5</button>
+			<button Type="button"  onclick="seis()" >6</button>
+			<button Type="button"  onclick="menos()" >-</button><br>
+			<button Type="button"  onclick="sete()" >7</button>
+			<button Type="button"  onclick="oito()" >8</button>
+			<button Type="button"  onclick="nove()" >9</button>
+			<button Type="button"  onclick="mais()" >+</button><br>
+			<button Type="button"  onclick="zero()" >0</button>
+			<button Type="button"  onclick="virgula()" >,</button>
+			<button Type="button"  onclick="total()" >=</button><br>
+			
+		</body>
+		<script>
+			function cs() {
+				const hour = document.getElementById("a").value //onde sera avaliado
+				let greeting= document.getElementById("b"); //onde sera a resposta
+
+				if (hour < 2) {
+				  greeting = 1
+				} else {
+				  greeting  = "asdf"
+				}
+				var a0 = document.getElementById("a1").value
+				var ar=a0
+				var br=greeting;
+				var cr = a0 + greeting
+				document.getElementById("b").value = cr
+			}
+		</script>
+</html>
