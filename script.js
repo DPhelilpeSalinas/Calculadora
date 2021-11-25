@@ -1,3 +1,62 @@
+/*
+https://www.w3schools.com/jsref/event_key_which.asp
+
+<input id="resp"type="text" size="50" onkeypress="myFunction(event)"> 
+
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_event_key_which2
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_event_key_which
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onkeyup
+<script>
+function myFunction(event) {
+  var x = event.which || event.keyCode;
+  if (x == 49) {
+    x=1
+  }
+  var x1 = event.which || event.keyCode;
+  if (x1 == 50) {
+  x1=2
+  //  alert ("Yodu pressed the Escape key!");
+  }
+  var x3 = event.which || event.keyCode;
+  if (x3 == 43) {
+    //x3= '+'
+  alert ("Yodu pressed the Escape keydd!");
+  }
+  var x4 = event.which || event.keyCode;
+  if (x4 == 13) {
+  alert(" x5")
+    var x5= x+x1+x3 
+  
+}
+</script>
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Press any key on the keyboard in the input field to get the Unicode character code and the Unicode key code of the pressed key.</p>
+
+<p><strong>Note:</strong> The which and keyCode property does not work on the onkeypress event for non-printable, function keys (like CAPS LOCK, CTRL, ESC, F12, etc.).</p>
+
+<input type="text" size="50" onkeypress="uniCharCode(event)" onkeydown="uniKeyCode(event)"> 
+
+<p>onkeypress - <span id="demo"></span></p>
+<p>onkeydown - <span id="demo2"></span></p>
+
+<script>
+function uniCharCode(event) { 
+  var char = event.which || event.keyCode; 
+  document.getElementById("demo").innerHTML = "The Unicode CHARACTER code is: " + char;
+}
+
+function uniKeyCode(event) {
+  var key = event.which || event.keyCode; 
+  document.getElementById("demo2").innerHTML = "The Unicode KEY code is: " + key;
+}
+</script>
+
+</body>
+</html>
+
 /*function cs() {
 				const hour = document.getElementById("a").value //onde sera avaliado
 				let greeting= document.getElementById("b"); //onde sera a resposta
@@ -43,16 +102,10 @@
 			1		1
         */
 			//Botção 1--------------------------------------------------------------------------------------
-				function keyPressed(qualquertecla){
-					var apertar =  qualquertecla.which
-					return String.fromCharCode(apertar)
-					}
-					document.onkeydown = function(qualquertecla) {
-					var str = keyPressed(qualquertecla)
 				
-					if(str === 'Backspace')
+					document.onkeyPresse = function a(){
 					window.alert("Você Apertou no telcado a tecla '1', chamando uma função...")
-					}
+				}
 					
 				/*
 
