@@ -3,19 +3,102 @@ https://www.w3schools.com/jsref/event_key_which.asp
 
 <input id="resp"type="text" size="50" onkeypress="myFunction(event)"> 
 
-https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_event_key_which2
-https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_event_key_which
-https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onkeyup
-<script>
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_event_key_which2 //identificar tecla
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_event_key_which //identificar tecla 2
+https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onkeyup //passar teclas para maiusculo
+<script>*/
 function myFunction(event) {
-  var x = event.which || event.keyCode;
+	var x1 = event.which;//1 tecla 1
+	var x2 = event.which;//2 tecla 2
+	var x3 = event.which;//3 tecla 3
+	var x4 = event.which;//4 tecla 4
+	var x5 = event.which;//5 tecla 5
+	var x6 = event.which;//6 tecla 6
+	var x7 = event.which;//7 tecla 7
+	var x8 = event.which;//8 tecla 8
+	var x9 = event.which;//9 tecla 9
+	var x0 = event.which;//10 tecla 0
+	var xdel = event.which;//11 tecla delete / limpar
+	var xraiz = event.which;//12 tecla raiz
+	var xporc = event.which;//13 tecla %
+	var xdiv = event.which;//14 tecla /
+	var xvez = event.which;//15 tecla *
+	var xmenos = event.which;//16 tecla -
+	var xmais = event.which;//17 tecla +
+	var xigual = event.which;//18 tecla =
+	var xvir = event.which;//19 tecla ,
+
+	if (x1 == 49) {//1 tecla 1
+		alert ("Yodu pressed tswshe Escape keydd!"+x1);
+	}
+	if (x2 == 50) {//2 tecla 2
+		alert ("Yodu pressed tswshe Escape keydd!"+x2);
+	}
+	if (x3 == 51) {//3 tecla 3
+		alert ("Yodu pressed tswshe Escape keydd!"+x3);
+	}
+	if (x4 == 52) {//4 tecla 4
+		alert ("Yodu pressed tswshe Escape keydd!"+x4);
+	}
+	if (x5 == 53) {//5 tecla 5
+		alert ("Yodu pressed tswshe Escape keydd!"+x5);
+	}
+	if (x6 == 54) {//6 tecla 6
+		alert ("Yodu pressed tswshe Escape keydd!"+x6);
+	}
+	if (x7 == 55) {//7 tecla 7
+		alert ("Yodu pressed tswshe Escape keydd!"+x7);
+	}
+	if (x8 == 56) {//8 tecla 8
+		alert ("Yodu pressed tswshe Escape keydd!"+x8);
+	}
+	if (x9 == 57) {//9 tecla 9
+		alert ("Yodu pressed tswshe Escape keydd!"+x9);
+	}
+	if (x0 == 48) {//10 tecla 0
+		alert ("Yodu pressed tswshe Escape keydd!"+x0);
+	}
+	if (xdel == 49) {//11 tecla delete / limpar
+		alert ("Yodu pressed tswshe Escape keydd!"+x1);
+	}
+	if (xraiz== 46) {//12 tecla raiz será usada a tecla de ponto"." 
+					//pois a mais proxima seria o acento circunflexo.
+					// mas fica fora da area de digitação para o projeto
+		alert ("Yodu pressed tswshe Escape keydd!"+x2);
+	}
+	if (xporc == 37) {//13 tecla %
+		alert ("Yodu pressed tswshe Escape keydd!"+x3);
+	}
+	if (xdiv == 47) {//14 tecla dividir
+		alert ("Yodu pressed tswshe Escape keydd!"+x4);
+	}
+	if (xvez == 42) {//15 tecla vezes
+		alert ("Yodu pressed tswshe Escape keydd!"+x5);
+	}
+	if (xmenos == 45) {//16 tecla menos
+		alert ("Yodu pressed tswshe Escape keydd!"+x6);
+	}
+	if (xmais == 43) {//17 tecla mais
+		alert ("Yodu pressed tswshe Escape keydd!"+x7);
+	}
+	if (xigual == 13) {//18 tecla resultado ou igual
+		alert ("Yodu pressed tswshe Escape keydd!"+x8);
+	}
+	if (xvir == 44) {//19 tecla ","" virgula
+		alert ("Yodu pressed tswshe Escape keydd!"+x9);
+	}
+  
+
+ /* 
+function uniCharCode(event) { 
+  var char = event.which || event.keyCode; 
   if (x == 49) {
-    x=1
-  }
-  var x1 = event.which || event.keyCode;
+    alert ("Yodu pressed tswshe Escape keydd!");
+  }*/
+  /*var x1 = event.which || event.keyCode;
   if (x1 == 50) {
   x1=2
-  //  alert ("Yodu pressed the Escape key!");
+  alert ("Yodu pressed sdawthe Escape key!");
   }
   var x3 = event.which || event.keyCode;
   if (x3 == 43) {
@@ -24,10 +107,9 @@ function myFunction(event) {
   }
   var x4 = event.which || event.keyCode;
   if (x4 == 13) {
-  alert(" x5")
-    var x5= x+x1+x3 
-  
-}
+  alert ("Yodu pressed the Escape keydd!");
+  */
+}/*
 </script>
 <!DOCTYPE html>
 <html>
