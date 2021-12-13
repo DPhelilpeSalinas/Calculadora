@@ -28,7 +28,7 @@
 	<head>
 		<link rel="stylesheet" href="style.css">
 	</head>
-	<body>
+	<body onload="checkCookie()">
 		<header>
 			<div id="linha1"></div><br>
 			<div id="linha2"></div><br>
@@ -40,25 +40,25 @@
 		<section>
 			<p>Vamos aprender</p><br>
 			<div id="linha 1">
-				<input id="resultado" onkeypress="myFunction(event)"><br>
+				<input id="resultado" onkeypress="myFunction(event)" onkeydown="uniKeyCode(event)"><br>
 			</div>
 			<div id="linha 2">
 			<!--Botões 1 linha------------------------------------------------------------------------------->
 				<button id="limpar" Type="button"  onclick="limpar()" >Limpar</button>
 				<button id="raiz" Type="button"  onclick="raiz()" >√</button>
 				<button id="porcentagem" Type="button"  onclick="porcentagem()">%</button>
-				<button id="divisão" Type="button"  onclick="divisão()">/</button><br>
+				<button id="divisão" Type="button"  onclick="divisao()">/</button><br>
 			</div>
 			<div id="linha 3">
 			<!--Botões 2 linha-------------------------------------------------------------------------------->
-				<button id="um" Type="button" onkeypress="um()" >1</button>
+				<button id="um" Type="button" onclick="um()" >1</button>
 				<button id="dois" Type="button"  onclick="dois()" >2</button>
 				<button id="tres" Type="button"  onclick="tres()" >3</button>
 				<button id="vezes" Type="button"  onclick="vezes()" >X</button><br>
 			</div>
 			<div id="linha 4">
 			<!--Botões 3 linha-------------------------------------------------------------------------------->
-				<button id="quadro" Type="button"  onclick="quadro()" >4</button>
+				<button id="quadro" Type="button"  onclick="quatro()" >4</button>
 				<button id="cinco" Type="button"  onclick="cinco()" >5</button>
 				<button id="seis" Type="button"  onclick="seis()" >6</button>
 				<button id="menos" Type="button"  onclick="menos()" >-</button><br>
