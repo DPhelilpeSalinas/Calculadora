@@ -41,23 +41,24 @@
 		}
 /*area calculadora------------------------------------------------------*/
 #area_calculadora{
-	background: blue;
+	background: grey;
 	height: 380px;
 	width: 280px;
 	padding:10px;
+	margin:auto;
 }
 
 /*Botoes calculadora----------------------------------------------------*/
 /*Linha 1---------------------------------------------------------------*/
 	#linha_1{
-		background: grey;
+		/*background: grey;*/
 		height: 80px;
 		width: 250px;
 		margin:10px;
 		padding: 3px;
 	}
 	#resultado{
-		background: white;
+		/*background: white;*/
 		height: 75px;
 		width: 245px;
 		font-size: 35px;
@@ -66,21 +67,21 @@
 	}
 /*Linha 2---------------------------------------------------------------*/
 	#linha_2{
-		background: red;
+		/*background: red;*/
 		height: 50px;
 		width: 250px;
 		margin: -5px 10px -10px 10px;
 		padding:7px 0px 0px 7px;
 	}
 	#limpar{
-		background: blue;
+		/*background: blue;*/
 		height: 40px;
 		width: 80px;
 		margin:3px;
 		font-weight: 1000;
 	}
 	#raiz{
-		background: grey;
+		/*background: grey;*/
 		height: 40px;
 		width: 40px;
 		margin:3px;
@@ -88,14 +89,14 @@
 		
 	}
 	#porcentagem{
-		background: yellow;
+		/*background: yellow;*/
 		height: 40px;
 		width: 40px;
 		margin:3px;
 		font-weight: 1000;
 	}
 	#divisao{
-		background: green;
+		/*background: green;*/
 		height: 40px;
 		width: 40px;
 		margin:3px;
@@ -103,35 +104,35 @@
 	}
 /*Linha 3---------------------------------------------------------------*/
 	#linha_3{
-		background: red;
+		/*background: red;*/
 		height: 50px;
 		width: 250px;
 		margin: -5px 10px -10px 10px;
 		padding:7px 0px 0px 7px ;
 	}
 	#um{
-		background: blue;
+		/*background: blue;*/
 		height: 40px;
 		width: 53px;
 		margin:3px;
 		font-weight: 1000;
 	}
 	#dois{
-		background: grey;
+		/*background: grey;*/
 		height: 40px;
 		width: 53px;
 		margin:3px;
 		font-weight: 1000;
 	}
 	#tres{
-		background: yellow;
+		/*background: yellow;*/
 		height: 40px;
 		width: 53px;
 		margin:3px;
 		font-weight: 1000;
 	}
 	#vezes{
-		background: green;
+		/*background: green;*/
 		height: 40px;
 		width: 40px;
 		margin:3px;
@@ -139,35 +140,35 @@
 	}
 /*Linha 4---------------------------------------------------------------*/
 	#linha_4{
-		background: red;
+		/*background: red;*/
 		height: 50px;
 		width: 250px;
 		margin: -5px 10px -10px 10px;
 		padding:7px 0px 0px 7px ;
 	}
 	#quatro{
-		background: blue;
+		/*background: blue;*/
 		height: 40px;
 		width: 53px;
 		margin:3px;
 		font-weight: 1000;
 	}
 	#cinco{
-		background: grey;
+		/*background: grey;*/
 		height: 40px;
 		width: 53px;
 		margin:3px;
 		font-weight: 1000;
 	}
 	#seis{
-		background: yellow;
+		/*background: yellow;*/
 		height: 40px;
 		width: 53px;
 		margin:3px;
 		font-weight: 1000;
 	}
 	#menos{
-		background: green;
+		/*background: green;*/
 		height: 40px;
 		width: 40px;
 		margin:3px;
@@ -175,35 +176,35 @@
 	}
 /*Linha 5---------------------------------------------------------------*/
 	#linha_5{
-		background: red;
+		/*background: red;*/
 		height: 50px;
 		width: 250px;
 		margin: -5px 10px -10px 10px;
 		padding:7px 0px 0px 7px ;
 	}
 	#sete{
-		background: blue;
+		/*background: blue;*/
 		height: 40px;
 		width: 53px;
 		margin:3px;
 		font-weight: 1000;
 	}
 	#oito{
-		background: grey;
+		/*background: grey;*/
 		height: 40px;
 		width: 53px;
 		margin:3px;
 		font-weight: 1000;
 	}
 	#nove{
-		background: yellow;
+		/*background: yellow;*/
 		height: 40px;
 		width: 53px;
 		margin:3px;
 		font-weight: 1000;
 	}
 	#mais{
-		background: green;
+		/*background: green;*/
 		height: 90px;
 		width: 40px;
 		margin:3px;
@@ -213,7 +214,7 @@
 	}
 /*Linha 6---------------------------------------------------------------*/
 	#linha_6{
-		background: red;
+		/*background: red;*/
 		height: 50px;
 		width: 250px;
 		margin: -5px 10px -10px 10px;
@@ -221,21 +222,21 @@
 		
 	}
 	#zero{
-		background: blue;
+		/*background: blue;*/
 		height: 40px;
 		width: 53px;
 		margin:3px;
 		font-weight: 1000;
 	}
 	#virgula{
-		background: grey;
+		/*background: grey;*/
 		height: 40px;
 		width: 53px;
 		margin:3px;
 		font-weight: 1000;
 	}
 	#total{
-		background: yellow;
+		/*background: yellow;*/
 		height: 40px;
 		width: 53px;
 		margin:3px;
