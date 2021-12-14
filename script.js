@@ -7,128 +7,180 @@ https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_event_key_which2 //i
 https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_event_key_which //identificar tecla 2
 https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onkeyup //passar teclas para maiusculo*/
 
-
-/*
-	function myFunction(event) {
-
-		var x1 = event.which;//1 tecla 1
-		var x2 = event.which;//2 tecla 2
-		var x3 = event.which;//3 tecla 3
-		var x4 = event.which;//4 tecla 4
-		var x5 = event.which;//5 tecla 5
-		var x6 = event.which;//6 tecla 6
-		var x7 = event.which;//7 tecla 7
-		var x8 = event.which;//8 tecla 8
-		var x9 = event.which;//9 tecla 9
-		var x0 = event.which;//10 tecla 0
-		//var xdel = event.which;//11 tecla delete / limpar //passada para outra função.
-		var xraiz = event.which;//12 tecla raiz
-		var xporc = event.which;//13 tecla %
-		var xdiv = event.which;//14 tecla /
-		var xvez = event.which;//15 tecla *
-		var xmenos = event.which;//16 tecla -
-		var xmais = event.which;//17 tecla +
-		var xigual = event.which;//18 tecla =
-		var xvir = event.which;//19 tecla ,
-
-		if (x1a == 49) {//1 tecla 1
-			alert ("Yodu pressed tswshe Escape keydd!"+x1);
-			x1a = "1"
-		}
-		if (x2 == 50) {//2 tecla 2
-			//alert ("Yodu pressed tswshe Escape keydd!"+x2);
-			x2 = 2
-		}
-		if (x3 == 51) {//3 tecla 3
-			//alert ("Yodu pressed tswshe Escape keydd!"+x3);
-			x3 = 3
-		}
-		if (x4 == 52) {//4 tecla 4
-			//alert ("Yodu pressed tswshe Escape keydd!"+x4);
-			x4 = 4
-		}
-		if (x5 == 53) {//5 tecla 5
-			//alert ("Yodu pressed tswshe Escape keydd!"+x5);
-			x5 = 5
-		}
-		if (x6 == 54) {//6 tecla 6
-			//alert ("Yodu pressed tswshe Escape keydd!"+x6);
-			x6 = 6
-		}
-		if (x7 == 55) {//7 tecla 7
-			//alert ("Yodu pressed tswshe Escape keydd!"+x7);
-			x7 = 7
-		}
-		if (x8 == 56) {//8 tecla 8
-			//alert ("Yodu pressed tswshe Escape keydd!"+x8);
-			x8 = 8
-		}
-		if (x9 == 57) {//9 tecla 9
-			//alert ("Yodu pressed tswshe Escape keydd!"+x9);
-			x9 = 9
-		}
-		if (x0 == 48) {//10 tecla 0
-			//alert ("Yodu pressed tswshe Escape keydd!"+x0);
-			x0 = 0
-		}
-			//if (xdel == 49) {//11 tecla delete / limpar 	necessita outra função//passada para outra função.
-			//	alert ("Yodu pressed tswshe Escape keydd!"+x1);
-			//}
-		if (xraiz== 46) {//12 tecla raiz será usada a tecla de ponto"." 
-						//pois a mais proxima seria o acento circunflexo.
-						// mas fica fora da area de digitação para o projeto
-			//alert ("Yodu pressed tswshe Escape keydd!"+x2);
-			xrais == "/"///////////
-		}
-		if (xporc == 37) {//13 tecla %
-			//alert ("Yodu pressed tswshe Escape keydd!"+x3);
-			xporc = "%"
-		}
-		if (xdiv == 47) {//14 tecla dividir
-			//alert ("Yodu pressed tswshe Escape keydd!"+x4);
-			xdiv = "/"
-		}
-		if (xvez == 42) {//15 tecla vezes
-			//alert ("Yodu pressed tswshe Escape keydd!"+x5);
-			xvez= "*"
-		}
-		if (xmenos == 45) {//16 tecla menos
-			//alert ("Yodu pressed tswshe Escape keydd!"+x6);
-			xmenos = "-"
-		}
-		if (xmais == 43) {//17 tecla mais
-			//alert ("Yodu pressed tswshe Escape keydd!"+x7);
-			xmais = "+"
-		}
-		if (xigual == 13) {//18 tecla resultado ou igual
-			//alert ("Yodu pressed tswshe Escape keydd!"+x8);
-			//xigual
-		}
-		if (xvir == 44) {//19 tecla ","" virgula
-			//alert ("Yodu pressed tswshe Escape keydd!"+x9);
-			x= "."
-		}
-	}
-		function uniKeyCode(event) {
-			var key = event.which || event.keyCode
-			if (key== 13) {//19 tecla ","" virgula
-				alert ("Yodu pressed tswshe Escape keydd!"+key)
-			//document.getElementById("resultado").value =  "resultadoa" + x1
+	/* anulado-------------------------------------------------------------------------------------------
+	//teclas---------------------------------------------------------------------------------------------
+		function teclado(event) {
+			//Entradas----------------------------------------------------------------------------------	
+				var cx1 = event.which;//1 tecla 1
+				var cx2 = event.which;//2 tecla 2
+				var cx3 = event.which;//3 tecla 3
+				var cx4 = event.which;//4 tecla 4
+				var cx5 = event.which;//5 tecla 5
+				var cx6 = event.which;//6 tecla 6
+				var cx7 = event.which;//7 tecla 7
+				var cx8 = event.which;//8 tecla 8
+				var cx9 = event.which;//9 tecla 9
+				var cx0 = event.which;//10 tecla 0
+				//var xdel = event.which;//11 tecla delete / limpar //passada para outra função.
+				var cxraiz = event.which;//12 tecla raiz
+				var cxporc = event.which;//13 tecla %
+				var cxdiv = event.which;//14 tecla /
+				var cxvez = event.which;//15 tecla *
+				var cxmenos = event.which;//16 tecla -
+				var cxmais = event.which;//17 tecla +
+				var cxigual = event.which;//18 tecla =
+				var cxvir = event.which;//19 tecla ,
+				//---------------------------------------------------------------------------
+			//Captura teclas----------------------------------------------------------------
+				//Teclas numeros------------------------------------------------------------	
+					if (cx1 == 49 ) {//1 tecla 1
+						//alert ("Yodu pressed tswshe Escape keydd!");
+						//cx1 = "1"
+						var cx1 = document.getElementById("resultado").value
+						var cx1r= cx1 + "1"
+						document.getElementById("resultado").value = cx1r
+						document.getElementById("resultado").style.fontWeight = ""
+					}
+					if (cx2 == 50) {//2 tecla 2
+						//alert ("Yodu pressed tswshe Escape keydd!"+x2);
+						//x2 = 2
+						var cx2 = document.getElementById("resultado").value
+						var cx2r= cx2 + "2"
+						document.getElementById("resultado").value = cx2r
+						document.getElementById("resultado").style.fontWeight = ""
+					}
+					if (cx3 == 51) {//3 tecla 3
+						//alert ("Yodu pressed tswshe Escape keydd!"+x3);
+						//x3 = 3
+						var cx3 = document.getElementById("resultado").value
+						var cx3r= cx3 + "3"
+						document.getElementById("resultado").value = cx3r
+						document.getElementById("resultado").style.fontWeight = ""
+					}
+					if (cx4 == 52) {//4 tecla 4
+						//alert ("Yodu pressed tswshe Escape keydd!"+x4);
+						//x4 = 4
+						var cx4 = document.getElementById("resultado").value
+						var cx4r= cx4 + "4"
+						document.getElementById("resultado").value = cx4r
+						document.getElementById("resultado").style.fontWeight = ""
+					}
+					if (cx5 == 53) {//5 tecla 5
+						//alert ("Yodu pressed tswshe Escape keydd!"+x5);
+						//x5 = 5
+						var cx5 = document.getElementById("resultado").value
+						var cx5r= cx5 + "5"
+						document.getElementById("resultado").value = cx5r
+						document.getElementById("resultado").style.fontWeight = ""
+					}
+					if (cx6 == 54) {//6 tecla 6
+						//alert ("Yodu pressed tswshe Escape keydd!"+x6);
+						//x6 = 6
+						var cx6 = document.getElementById("resultado").value
+						var cx6r= cx6 + "6"
+						document.getElementById("resultado").value = cx6r
+						document.getElementById("resultado").style.fontWeight = ""
+					}
+					if (cx7 == 55) {//7 tecla 7
+						//alert ("Yodu pressed tswshe Escape keydd!"+x7);
+						//x7 = 7
+						var cx7 = document.getElementById("resultado").value
+						var cx7r= cx7 + "7"
+						document.getElementById("resultado").value = cx7r
+						document.getElementById("resultado").style.fontWeight = ""
+					}
+					if (cx8 == 56) {//8 tecla 8
+						//alert ("Yodu pressed tswshe Escape keydd!"+x8);
+						//x8 = 8
+						var cx8 = document.getElementById("resultado").value
+						var cx8r= cx8 + "8"
+						document.getElementById("resultado").value = cx8r
+						document.getElementById("resultado").style.fontWeight = ""
+					}
+					if (cx9 == 57) {//9 tecla 9
+						//alert ("Yodu pressed tswshe Escape keydd!"+x9);
+						//x9 = 9
+						var cx9 = document.getElementById("resultado").value
+						var cx9r= cx9 + "9"
+						document.getElementById("resultado").value = cx9r
+						document.getElementById("resultado").style.fontWeight = ""
+					}
+					if (cx0 == 48) {//10 tecla 0
+						//alert ("Yodu pressed tswshe Escape key!"+x0);
+						//x0 = 0
+						var cx0 = document.getElementById("resultado").value
+						var cx0r = cx0 + "0"
+						document.getElementById("resultado").value = cx0r
+						document.getElementById("resultado").style.fontWeight = ""
+					}
+				//Teclas funcoes---------------------------------------------------------------------------------	
+					//if (xdel == 49) {//11 tecla delete / limpar 	necessita outra função//passada para outra função.
+					//	alert ("Yodu pressed tswshe Escape keydd!"+x1);
+					//}
+					//if (cxraiz== 46) {//12 tecla raiz será usada a tecla de ponto"." //será apenas no mouse
+									//pois a mais proxima seria o acento circunflexo.
+									// mas fica fora da area de digitação para o projeto
+					//	alert ("Yodu pressed tswshe Escape keydd!"+x2);
+					//	cxrais == "/"///////////
+					//}
+					if (cxporc == 37 || !Id("resultado")) {//13 tecla %
+						//alert ("Yodu pressed tswshe Escape keydd!"+x3);
+						//cxporc = "%"
+						var cxporc = document.getElementById("resultado").value
+						var cxporcr= cxporc + " % "
+						document.getElementById("resultado").value = cxporcr
+						document.getElementById("resultado").style.fontWeight = ""
+					}
+					if (cxdiv == 47) {//14 tecla dividir
+						//alert ("Yodu pressed tswshe Escape keydd!"+x4);
+						//xdiv = "/"
+						var cxdiv = document.getElementById("resultado").value
+						var cxdivr= cxdiv + " / "
+						document.getElementById("resultado").value = cxdivr
+						document.getElementById("resultado").style.fontWeight = ""
+					}
+					if (cxvez == 42) {//15 tecla vezes
+						//alert ("Yodu pressed tswshe Escape keydd!"+x5);
+						//xvez= "*"
+						var cxvez = document.getElementById("resultado").value
+						var cxvezr= cxvez + " * "
+						document.getElementById("resultado").value = cxvezr
+						document.getElementById("resultado").style.fontWeight = ""
+					}
+					if (cxmenos == 45) {//16 tecla menos
+						//alert ("Yodu pressed tswshe Escape keydd!"+x6);
+						//xmenos = "-"
+						var cxmenos = document.getElementById("resultado").value
+						var cxmenosr= cxmenos + " - "
+						document.getElementById("resultado").value = cxmenosr
+						document.getElementById("resultado").style.fontWeight = ""
+					}
+					if (cxmais == 43) {//17 tecla mais
+						//alert ("Yodu pressed tswshe Escape keydd!"+x7);
+						//xmais = "+"
+						var cxmais = document.getElementById("resultado").value
+						var cxmaisr= cxmais + " + "
+						document.getElementById("resultado").value = cxmaisr
+						document.getElementById("resultado").style.fontWeight = ""
+					}
+					//anulado passado para resposta
+					//if (xigual == 13) {//18 tecla resultado ou igual
+						//alert ("Yodu pressed tswshe Escape keydd!"+x8);
+						//xigual
+					//}
+					if (cxvir == 44) {//19 tecla ","" virgula
+						//alert ("Yodu pressed tswshe Escape keydd!"+x9);
+						//xvir= "."
+						var cxvir = document.getElementById("resultado").value
+						var cxvirr= cxvir + "."
+						document.getElementById("resultado").value = cxvirr
+						document.getElementById("resultado").style.fontWeight = ""
+					}
+					//-----------------------------------------------------------------------------------------	
 			}
-		}*/
-
-function myFunction(event) {
-	var xigual = event.which;//18 tecla =
-	if (xigual == 13) {//18 tecla resultado ou igual
-		var tr = document.getElementById("resultado").value
-			var tra = tr.replace(/,/g, ".");
-			var trb = eval(tra)//.replace(".",",")
-			document.getElementById("resultado").value = trb//.replace(/./g, ",");
-			document.getElementById("resultado").style.fontWeight = "bold"
-		//xigual
-		}
-	}
-	//----------------------------------------------------------------------------------
+		*/
+//Botoes de click----------------------------------------------------------------------------------------------
+	// 1 linha de botoes---------------------------------------------------------------------------------------
 		function limpar(){
 			var tl = document.getElementById("resultado").value
 			document.getElementById("resultado").value = ""
@@ -136,7 +188,7 @@ function myFunction(event) {
 			}
 		function raiz(){
 			var traiz = document.getElementById("resultado").value
-			var traizr = traiz + " ** " 
+			var traizr = Math.sqrt(traiz,2); 
 			document.getElementById("resultado").value = traizr
 			}
 		function porcentagem(){
@@ -151,8 +203,8 @@ function myFunction(event) {
 			document.getElementById("resultado").value = tdr
 			document.getElementById("resultado").style.fontWeight = ""
 			}
-	//----------------------------------------------------------------------------------
-	//----------------------------------------------------------------------------------
+		//-----------------------------------------------------------------------------------------------
+	//2 linha de botoes----------------------------------------------------------------------------------
 		function um(){
 			var tum = document.getElementById("resultado").value
 			var tumr= tum + "1"
@@ -177,8 +229,8 @@ function myFunction(event) {
 			document.getElementById("resultado").value = tvezesr
 			document.getElementById("resultado").style.fontWeight = ""
 			}
-	//----------------------------------------------------------------------------------
-	//----------------------------------------------------------------------------------
+		//-----------------------------------------------------------------------------------------------
+	//3 linha de botoes----------------------------------------------------------------------------------
 		function quatro(){
 			var tquatro = document.getElementById("resultado").value
 			var tquatror = tquatro + "4"
@@ -203,8 +255,8 @@ function myFunction(event) {
 			document.getElementById("resultado").value = tmenosr
 			document.getElementById("resultado").style.fontWeight = ""
 			}
-	//----------------------------------------------------------------------------------
-	//----------------------------------------------------------------------------------
+		//-----------------------------------------------------------------------------------------------
+	//4 linha de botoes----------------------------------------------------------------------------------
 		function sete(){
 			var tsete= document.getElementById("resultado").value
 			var tseter= tsete + "7"
@@ -229,8 +281,8 @@ function myFunction(event) {
 			document.getElementById("resultado").value = tmaisr
 			document.getElementById("resultado").style.fontWeight = ""
 			}
-	//----------------------------------------------------------------------------------
-	//----------------------------------------------------------------------------------
+		//-----------------------------------------------------------------------------------------------
+	//5 linha de botoes----------------------------------------------------------------------------------
 		function zero(){
 			var tzero= document.getElementById("resultado").value
 			var tzeror= tzero + "0"
@@ -243,16 +295,33 @@ function myFunction(event) {
 			document.getElementById("resultado").value = tvirgular
 			document.getElementById("resultado").style.fontWeight = ""
 			}
-	//----------------------------------------------------------------------------------
-		function total(){
-			//teste para pegar sequencia digitada
+		//-----------------------------------------------------------------------------------------------
+//Resultados---------------------------------------------------------------------------------------------------
+		function total(){//igual teclado
 			var tr = document.getElementById("resultado").value
 			var tra = tr.replace(/,/g, ".");
 			var trb = eval(tra)//.replace(".",",")
 			document.getElementById("resultado").value = trb//.replace(/./g, ",");
 			document.getElementById("resultado").style.fontWeight = "bold"
 			}
-			
+		function clickmouse(event) {
+			var cres = event.which || event.keyCode
+			var cdel = event.which || event.keyCode
+			if (cres == 13) {//19 tecla "="" igual
+				//alert ("voce" + cres)
+				//document.getElementById("resultado").value =  "resultadoa" + x1
+				var cres = document.getElementById("resultado").value
+				var cresra = cres.replace(/,/g, ".");
+				var cresrb = eval(cresra)//.replace(".",",")
+				document.getElementById("resultado").value = cresrb//.replace(/./g, ",");
+				document.getElementById("resultado").style.fontWeight = "bold"
+				}
+			if (cdel == 8 || cdel == 46 ) {//19 tecla delete ou backspace
+				document.getElementById("resultado").value = ""
+				document.getElementById("resultado").style.fontWeight = ""
+				}
+			}
+		//-----------------------------------------------------------------------------------------------------
 			//teste para gerar teclas com valores recebidos
 
 			//var x1 = x1a

@@ -17,9 +17,8 @@
 		background: black;
 		color:white;
 		font-weight: bold;
-		}
-	
-/*cabeçalho--------------------------------------------------*/
+		}	
+/*cabeçalho-------------------------------------------------------------*/
 	#titulo{
 		background:red;
 		height: 5px;
@@ -40,3 +39,209 @@
 		height: 5px;
 		width:500px;
 		}
+/*area calculadora------------------------------------------------------*/
+#area_calculadora{
+	background: blue;
+	height: 380px;
+	width: 280px;
+	padding:10px;
+}
+
+/*Botoes calculadora----------------------------------------------------*/
+/*Linha 1---------------------------------------------------------------*/
+	#linha_1{
+		background: grey;
+		height: 80px;
+		width: 250px;
+		margin:10px;
+		padding: 3px;
+	}
+	#resultado{
+		background: white;
+		height: 75px;
+		width: 245px;
+		font-size: 35px;
+		text-align: right;
+		font-weight: 1000;
+	}
+/*Linha 2---------------------------------------------------------------*/
+	#linha_2{
+		background: red;
+		height: 50px;
+		width: 250px;
+		margin: -5px 10px -10px 10px;
+		padding:7px 0px 0px 7px;
+	}
+	#limpar{
+		background: blue;
+		height: 40px;
+		width: 80px;
+		margin:3px;
+		font-weight: 1000;
+	}
+	#raiz{
+		background: grey;
+		height: 40px;
+		width: 40px;
+		margin:3px;
+		font-weight: 1000;
+		
+	}
+	#porcentagem{
+		background: yellow;
+		height: 40px;
+		width: 40px;
+		margin:3px;
+		font-weight: 1000;
+	}
+	#divisao{
+		background: green;
+		height: 40px;
+		width: 40px;
+		margin:3px;
+		font-weight: 1000;
+	}
+/*Linha 3---------------------------------------------------------------*/
+	#linha_3{
+		background: red;
+		height: 50px;
+		width: 250px;
+		margin: -5px 10px -10px 10px;
+		padding:7px 0px 0px 7px ;
+	}
+	#um{
+		background: blue;
+		height: 40px;
+		width: 53px;
+		margin:3px;
+		font-weight: 1000;
+	}
+	#dois{
+		background: grey;
+		height: 40px;
+		width: 53px;
+		margin:3px;
+		font-weight: 1000;
+	}
+	#tres{
+		background: yellow;
+		height: 40px;
+		width: 53px;
+		margin:3px;
+		font-weight: 1000;
+	}
+	#vezes{
+		background: green;
+		height: 40px;
+		width: 40px;
+		margin:3px;
+		font-weight: 1000;
+	}
+/*Linha 4---------------------------------------------------------------*/
+	#linha_4{
+		background: red;
+		height: 50px;
+		width: 250px;
+		margin: -5px 10px -10px 10px;
+		padding:7px 0px 0px 7px ;
+	}
+	#quatro{
+		background: blue;
+		height: 40px;
+		width: 53px;
+		margin:3px;
+		font-weight: 1000;
+	}
+	#cinco{
+		background: grey;
+		height: 40px;
+		width: 53px;
+		margin:3px;
+		font-weight: 1000;
+	}
+	#seis{
+		background: yellow;
+		height: 40px;
+		width: 53px;
+		margin:3px;
+		font-weight: 1000;
+	}
+	#menos{
+		background: green;
+		height: 40px;
+		width: 40px;
+		margin:3px;
+		font-weight: 1000;
+	}
+/*Linha 5---------------------------------------------------------------*/
+	#linha_5{
+		background: red;
+		height: 50px;
+		width: 250px;
+		margin: -5px 10px -10px 10px;
+		padding:7px 0px 0px 7px ;
+	}
+	#sete{
+		background: blue;
+		height: 40px;
+		width: 53px;
+		margin:3px;
+		font-weight: 1000;
+	}
+	#oito{
+		background: grey;
+		height: 40px;
+		width: 53px;
+		margin:3px;
+		font-weight: 1000;
+	}
+	#nove{
+		background: yellow;
+		height: 40px;
+		width: 53px;
+		margin:3px;
+		font-weight: 1000;
+	}
+	#mais{
+		background: green;
+		height: 90px;
+		width: 40px;
+		margin:3px;
+		float:right;
+		margin:0px 18px 0px 0px ;
+		font-weight: 1000;
+	}
+/*Linha 6---------------------------------------------------------------*/
+	#linha_6{
+		background: red;
+		height: 50px;
+		width: 250px;
+		margin: -5px 10px -10px 10px;
+		padding:7px 0px 0px 7px ;
+		
+	}
+	#zero{
+		background: blue;
+		height: 40px;
+		width: 53px;
+		margin:3px;
+		font-weight: 1000;
+	}
+	#virgula{
+		background: grey;
+		height: 40px;
+		width: 53px;
+		margin:3px;
+		font-weight: 1000;
+	}
+	#total{
+		background: yellow;
+		height: 40px;
+		width: 53px;
+		margin:3px;
+		font-weight: 1000;
+	}
+
+/*area calculadora------------------------------------------------------*/
+/*area calculadora------------------------------------------------------*/
+/*area calculadora------------------------------------------------------*/
