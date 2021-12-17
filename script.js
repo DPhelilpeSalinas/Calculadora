@@ -190,6 +190,14 @@ https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onkeyup //passar tec
 			var traiz = document.getElementById("resultado").value
 			var traizr = Math.sqrt(traiz,2); 
 			document.getElementById("resultado").value = traizr
+			setTimeout(myTimerp2, 1)
+  				function myTimerp2(){//erro quando não é número
+					var traizrr = document.getElementById("resultado").value
+					if(isNaN(traizrr)){						
+						document.getElementById("resultado").value = ""
+						document.getElementById("resultado").placeholder = " 0,00 "
+						}
+					}
 			}
 		function porcentagem(){
 			var tp = document.getElementById("resultado").value
@@ -291,22 +299,38 @@ https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onkeyup //passar tec
 			}
 		function virgula(){
 			var tvirgula= document.getElementById("resultado").value
-			var tvirgular= tvirgula + "."
+			var tvirgular= tvirgula + ","
 			document.getElementById("resultado").value = tvirgular
 			document.getElementById("resultado").style.fontWeight = ""
 			}
 		//-----------------------------------------------------------------------------------------------
-//Resultados---------------------------------------------------------------------------------------------------
+	//Resultados---------------------------------------------------------------------------------------------------
 		function total(){//igual teclado
 			var tr = document.getElementById("resultado").value
 			var tra = tr.replace(/,/g, ".");
 			var trb = eval(tra)//.replace(".",",")
 			document.getElementById("resultado").value = trb//.replace(/./g, ",");
 			document.getElementById("resultado").style.fontWeight = "bold"
+			setTimeout(myTimerp3, 9)
+			setTimeout(myTimerp4, 9)
+  				function myTimerp3(){//erro quando não é número
+					var trb = document.getElementById("resultado").value
+					if(isNaN(trb)){						
+						document.getElementById("resultado").value = ""
+						document.getElementById("resultado").placeholder = " 0,00 "
+						}
+					}
+			function myTimerp4(){
+					var trb = document.getElementById("resultado").value
+					document.getElementById("resultado").value = trb.replace(".",",")
+					
+				}
 			}
 		function clickmouse(event) {
 			var cres = event.which || event.keyCode
 			var cdel = event.which || event.keyCode
+			var letras = event.which || event.keyCode
+		
 			if (cres == 13) {//19 tecla "="" igual
 				//alert ("voce" + cres)
 				//document.getElementById("resultado").value =  "resultadoa" + x1
@@ -315,12 +339,44 @@ https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_onkeyup //passar tec
 				var cresrb = eval(cresra)//.replace(".",",")
 				document.getElementById("resultado").value = cresrb//.replace(/./g, ",");
 				document.getElementById("resultado").style.fontWeight = "bold"
+				setTimeout(myTimerp5, 1)
+				setTimeout(myTimerp6, 1)
+				function myTimerp5(){//erro quando não é número
+					var cresrbz1 = document.getElementById("resultado").value
+					if(isNaN(cresrbz1)){						
+						document.getElementById("resultado").value = ""
+						document.getElementById("resultado").placeholder = " 0,00 "
+						}
+					}
+  				function myTimerp6(){
+						var cresrbz = document.getElementById("resultado").value
+						document.getElementById("resultado").value = cresrbz.replace(".",",")
+						}
 				}
 			if (cdel == 8 || cdel == 46 ) {//19 tecla delete ou backspace
 				document.getElementById("resultado").value = ""
 				document.getElementById("resultado").style.fontWeight = ""
 				}
+			
+			if (letras == 17 ||	letras == 108 || letras == 112 || letras == 65 || 
+				letras == 66 || letras == 67 || letras ==  68 || letras == 69 || 
+				letras == 70 || letras == 71 || letras ==  72 || letras == 73 || 
+				letras == 74 || letras == 75 || letras ==  76 || letras == 77 || 
+				letras == 78 || letras == 79 || letras ==  80 || letras == 81 || 
+				letras == 82 || letras == 83 || letras ==  84 || letras == 85 || 
+				letras == 86 || letras == 87 || letras ==  88 || letras == 89 || 
+				letras == 90) {//19 tecla delete ou backspace
+				
+				alert("Não é um número! Favor digitar Apenas Números!")
+				document.getElementById("resultado").value = " "
+				setTimeout(myTimerp1, 9)
+				}
+  			function myTimerp1(){
+  				document.getElementById("resultado").value = ""
+				document.getElementById("resultado").placeholder = " 0,00 "
+				}
 			}
+			
 		//-----------------------------------------------------------------------------------------------------
 			//teste para gerar teclas com valores recebidos
 
